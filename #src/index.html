@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+	"title":"Главная"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('_header.html',{})
+			<main class="page">
+        <section class="workspace">
+          <div class="workspace__content _container">
+            <a href="#delivery" class="workspace__link _popup-link">Я ссылка на Условия оплаты и доставки!</a>
+            <a href="#schedule" class="workspace__link _popup-link">Я ссылка на График работы!</a>
+            <a href="#contacts" class="workspace__link _popup-link">Я ссылка на Адрес и контакты!</a>
+            <a href="#refund" class="workspace__link _popup-link">Я ссылка на Условия возврата!</a>
+          </div>
+        </section>
+			</main>
+			@@include('_footer.html',{})
+		</div>
+		@@include('_popup.html',{})
+		@@include('_js.html',{})
+	</body>
+</html>
