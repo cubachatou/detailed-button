@@ -9,10 +9,152 @@
 			<main class="page">
         <section class="workspace">
           <div class="workspace__content _container">
-            <a href="#delivery" class="workspace__link _popup-link">Я ссылка на Условия оплаты и доставки!</a>
-            <a href="#schedule" class="workspace__link _popup-link">Я ссылка на График работы!</a>
-            <a href="#contacts" class="workspace__link _popup-link">Я ссылка на Адрес и контакты!</a>
-            <a href="#refund" class="workspace__link _popup-link">Я ссылка на Условия возврата!</a>
+            <span class="workspace__link-wrapper">
+              <a href="#delivery" class="workspace__link workspace__link_pc _popup-link">Я ссылка на Условия оплаты и доставки!</a>
+              <a class="workspace__link workspace__link_mobile">Я ссылка на Условия оплаты и доставки!</a>
+              <div class="workspace__link_mobile-body delivery-body">
+                <div class="delivery-body__header">
+                  <button class="delivery-body__btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="$colorMain">
+                      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                  </button>
+                  <span class="delivery-body__title">Условия доставки</span>
+                </div>
+                <div class="delivery-body__tabs _tabs">
+                  <div class="delivery-body__tabs-row">
+                    <span class="delivery-body__tabs-item _tabs-item _active">Доставка</span>
+                    <span class="delivery-body__tabs-item _tabs-item">Регионы</span>
+                  </div>
+                  <div class="delivery-body__tabs-block _tabs-block _active">
+                    <div class="delivery-body__item">
+                      <strong class="delivery-body__method"><img src="img/delivery.svg" alt="">Доставка "Самовывоз"</strong>
+                      <p class="delivery-body__text">г.Харьков. График работы: будние дни с 09:00 до 18:00</p>
+                    </div>
+                    <div class="delivery-body__item">
+                      <strong class="delivery-body__method"><img src="img/delivery.svg" alt="">Доставка курьером</strong>
+                      <p class="delivery-body__text">Стоимость доставки 100 грн.<br>Курьерская доставка только по г. Харьков 100 гривен.<br>От суммы заказа 500 гривен - доставка бесплатна.</p>
+                    </div>
+                    <div class="delivery-body__item">
+                      <strong class="delivery-body__method"><img src="img/NP.svg" alt="">Доставка "Нова Пошта"</strong>
+                      <p class="delivery-body__text">
+                        Доставка Новой Почтой всегда оплачивается получателем. Рассчитать стоимость доставки можно, перейдя по ссылке <a href="https://novaposhta.ua/delivery">https://novaposhta.ua/delivery</a>.
+                        Отправка заказа в течение 1-3 рабочих дней
+                      </p>
+                    </div>
+                  </div>
+                  <div class="delivery-body__tabs-block _tabs-block">
+                    <ul class="delivery-body__list">
+                      <li class="delivery-body__item">
+                        <b>Украина:</b>
+                        <ul>
+                          <li>Винницкая область</li>
+                          <li>Волынская область</li>
+                          <li>
+                            <b>Днепропетровская область:</b>
+                            <ul>
+                              <li>Днепр</li>
+                              <li>Каменское</li>
+                              <li>Кривой Рог</li>
+                              <li>Никополь</li>
+                              <li>Павлоград</li>
+                            </ul>
+                          </li>
+                          <li>
+                            <b>Донецкая область:</b>
+                            <ul>
+                              <li>Бахмут</li>
+                              <li>Константиновка</li>
+                              <li>Краматорс</li>
+                              <li>Мариуполь</li>
+                              <li>Славянск</li>
+                            </ul>
+                          </li>
+                          <li>Житомирская область</li>
+                          <li>Закарпатская область</li>
+                          <li>Запорожская область</li>
+                          <li>Ивано-Франковская область</li>
+                          <li>Киев</li>
+                          <li>
+                            <b>Киевская область:</b>
+                            <ul>
+                              <li>Белая Церковь</li>
+                              <li>Березень</li>
+                              <li>Борисполь</li>
+                              <li>Бровары</li>
+                              <li>Буча</li>
+                              <li>Васильков</li>
+                              <li>Вышгород</li>
+                              <li>Ирпень</li>
+                              <li>Обухов</li>
+                              <li>Переяслав-Хмельницкий</li>
+                              <li>Ржищев</li>
+                              <li>Славутич</li>
+                              <li>Украинка</li>
+                              <li>Фастов</li>
+                              <li>Яготин</li>
+                            </ul>
+                          </li>
+                          <li>Кировоградская область</li>
+                          <li>
+                            <b>Луганская область:</b>
+                            <ul>
+                              <li>Кадиевка</li>
+                              <li>Лисичанск</li>
+                              <li>Северодонецк</li>
+                            </ul>
+                          </li>
+                          <li>
+                            <b>Львовская область:</b>
+                            <ul>
+                              <li>Львов</li>
+                            </ul>
+                          </li>
+                          <li>Николаевская область</li>
+                          <li>
+                            <b>Одесская область:</b>
+                            <ul>
+                              <li>Измаил</li>
+                              <li>Одесса</li>
+                              <li>Черноморск</li>
+                            </ul>
+                          </li>
+                          <li>Полтавская область</li>
+                          <li>Ровненская область</li>
+                          <li>
+                            <b>Сумская область:</b>
+                            <ul>
+                              <li>Конотоп</li>
+                              <li>Сумы</li>
+                              <li>Шостка</li>
+                            </ul>
+                          </li>
+                          <li>Тернопольская область</li>
+                          <li>Харьковская область</li>
+                          <li>Херсонская область</li>
+                          <li>Хмельницкая область</li>
+                          <li>Черкасская область</li>
+                          <li>Черниговская область</li>
+                          <li>Черновицкая область</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </span>
+            <span class="workspace__link-wrapper">
+              <a href="#schedule" class="workspace__link workspace__link_pc _popup-link">Я ссылка на График работы!</a>
+              <a class="workspace__link workspace__link_mobile">Я ссылка на График работы!</a>
+            </span>
+            <span class="workspace__link-wrapper">
+              <a href="#contacts" class="workspace__link workspace__link_pc _popup-link">Я ссылка на Адрес и контакты!</a>
+              <a class="workspace__link workspace__link_mobile">Я ссылка на Адрес и контакты!</a>
+            </span>
+            <span class="workspace__link-wrapper">
+              <a href="#refund" class="workspace__link workspace__link_pc _popup-link">Я ссылка на Условия возврата!</a>
+              <a class="workspace__link workspace__link_mobile">Я ссылка на Условия возврата!</a>
+            </span>
           </div>
         </section>
 			</main>
